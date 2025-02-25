@@ -1,7 +1,7 @@
 from fetcher import fetch_joke
 from database_crud import *
 from joke_response import add_metadata, search_jokes
-from config import db_name
+from config import *
 
 def menu():
     """CLI menu for interacting with the jokes database"""
